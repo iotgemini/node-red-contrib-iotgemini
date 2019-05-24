@@ -1,0 +1,27 @@
+<script type="text/javascript">
+    RED.nodes.registerType('iotg_in',{
+        category: 'IOTGEMINI',
+        color: '#a6bbcf',
+		defaults: {name: { value : "" }}, 
+        inputs:1,
+        outputs:1,
+        icon: "iotgemini.png",
+		align:"left",
+        label: function() {
+            return this.name||"iotg_in";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="iotg_in">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+		<BR>
+		
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="iotg_in">
+    <p>A simple node that allow control iotgemini peripherals</p>
+</script>

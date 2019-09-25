@@ -37,5 +37,13 @@
 </script>
 
 <script type="text/x-red" data-help-name="iotg_dcmd">
-    <p> A simple node that allow to control iotgemini peripherals</p>
+    <p> This node give command to the rfpi service<br>
+	Name: any name that you want!<br>
+	Address: give an address if you use command like REFRESH. <br>
+	Command: choose the command you want run!<br>
+			&nbps&nbps&nbps FIND: it start to search if there is a new periperal to install<br>
+			&nbps&nbps&nbps REFRESH: it refresh all status of the peripheral specified by address.<br>
+			&nbps&nbps&nbps DELETE: it delete a peripheral specified by the field Address.<br>
+	Input msg.payload = TRUE
+	</p>
 </script>

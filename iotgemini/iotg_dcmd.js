@@ -79,7 +79,7 @@ module.exports = function(RED)
 					else
 					{
 						msg1 = { payload: "OK" };
-						this.status({fill:"green",shape:"dot",text:"Succefull"});
+						this.status({fill:"green",shape:"dot",text:"Successful"});
 					}
 				}) 
 				}

@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-iotgemini",
-  "version": "1.0.14",
+  "version": "1.0.17",
   "description": "A simple node that allow control iotgemini peripherals",
   "main": "index.js",
   "scripts": {
